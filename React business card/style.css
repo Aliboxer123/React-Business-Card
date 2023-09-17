@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+body{
+font-family: 'Inter', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 800;
+background-color: #23252C
+}
+.app-container{
+width: 70%;
+margin: auto;
+background-color: #1A1B21
+}
+
+.info-container img{ 
+width: 100%;
+height: 60vh;
+margin-bottom: 0;
+display: block;
+}
+
+.info-container h4{
+font-size: 2em;
+margin-bottom: 0;
+letter-spacing: 4px;
+text-align: center;
+margin-top: 0;
+color: #FFFFFF;
+font-weight: 900;
+font-family: inter;
+}
+
+.info-container > p {        
+margin-top: 0;
+margin-bottom: 0;
+font-size: 1.3em;
+text-align: center;
+color: #F3BF99; 
+}
+
+.info-container b {
+display: block;
+margin-bottom: 1em;
+font-size: 0.7em;
+text-align: center;
+color: #F5F5F5;
+}
+
+.info-container .links{
+text-align: center;
+padding: 1em 0;
+}
+
+.links > .linked-in{
+border: 1px solid blue;
+margin-right: 1em;
+padding: 0.5em 1em;
+background-color: #0e76a8;
+color: whitesmoke;
+border-radius: 15px;
+font-size: 1.2em;
+font-weight: 900;
+cursor: pointer; 
+text-decoration: none;
+font-family: sans-serif
+}
+
+.links > .email{
+border: 1px solid white;
+margin-left: 1em;
+padding: 0.5em 1em;
+background-color: whitesmoke;
+color: black;
+border-radius: 15px;
+font-size: 1.2em;
+font-weight: 900;
+cursor: pointer;
+text-decoration: none;
+font-family: sans-serif
+}
+
+.footer{
+display: flex;
+justify-content: space-around; 
+margin-top: 1em;
+background-color: #161619;  
+}
+
+.footer i {
+font-size: 2em;
+color: #918E9B
+}
+
+.interests p {
+line-height: 1.4;
+display: flex;
+width: 80%;
+flex-wrap: wrap 
+}
+
+.about p {
+line-height: 1.4;
+display: flex;
+width: 80%;
+flex-wrap: wrap 
+}
+
+.about h1,.about p{
+color: #DCDCDC;
+margin-left: 1em   
+}
+
+.interests h1, .interests p{
+color: #DCDCDC;
+margin-left: 1em      
+}
